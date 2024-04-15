@@ -129,6 +129,7 @@ textarea {
 /*  valores inicial para o formulario lef -300px, top 30%
 valor final top 30%, left 50%, transform: trasnlatex (-50%)*/
 .mascara-formulario {
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
