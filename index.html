@@ -11,7 +11,7 @@
 
 <body>
 
-    <div onclick="ClqueiNaMascara()"  class="mascara-formulario"></div>
+    <div onclick="EsconderForm()" class="mascara-formulario"></div>
 
     <div class="header">
         <img src="./assets/logo-header.png" alt="logo header">
@@ -27,7 +27,7 @@
             torneiras que não param de pingar ? Não se preocupe, estamos aqui para salvar o dia! Apresentamos a vocês os
             encanadores mais famosos do Reino dos Cogumelos - Mário e Luigi!</p>
 
-        <button onclick="CliqueiNoBotao()">Entre em Contato</button>
+        <button onclick="MostrarForm()">Entre em Contato</button>
     </div>
 
     <div>
@@ -46,11 +46,14 @@
         <img class="link-wat" src="./assets/whatsapp.png" alt="link para o whatsapp">
     </a>
 
-    <form class="formulario-fale-conosco">
-        <input placeholder="Seu nome">
-        <input placeholder="Seu telefone">
-        <textarea placeholder="Digite aqui seu problema..."></textarea>
-        <button>Pedir Orçamento</button>
+    <form class="formulario-fale-conosco" 
+         action="https://formcarry.com/s/1Aa11jEXxK5"
+         method="POST"
+         enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite aqui seu problema..." name="dúvida"></textarea>
+            <button type="submit">Pedir Orçamento</button>
 
 
 
