@@ -26,6 +26,20 @@ button {
     font-weight: bold;
     margin-top: 30px;
 }
+ .button-orcamento {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40px;
+ }
+
 
 body {
 display: flex;
@@ -172,6 +186,9 @@ valor final top 30%, left 50%, transform: trasnlatex (-50%)*/
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: visible 1s ease-in-out;
 }
+.button-celular {
+    visibility: hidden;
+}
 
 
 /* Responvidade*/
@@ -215,8 +232,38 @@ valor final top 30%, left 50%, transform: trasnlatex (-50%)*/
     font-size: 12px;
 }
 button {
+    
+    visibility: hidden;
+    /**margin-left: -25px;**/
+}
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+  .button-celular {
+    visibility: visible;
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
     margin-left: -25px;
 }
-
+.button-orcamento {
+    visibility: visible;
+}
 
 }
